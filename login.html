@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+
+    <style>
+        #box-1 {
+            background-color: #263466;
+            height: 400px;
+        }
+
+        #box-2 {
+            background-color: #F1F1F1;
+            height: 800px;
+        }
+
+
+        #login-box {
+            width: 380px;
+            height: 470px;
+            background-color: #FFFFFF;
+            position: relative;
+            margin: 10px auto 0px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px #263466;
+            overflow: hidden;
+            top: -1000px;
+
+        }
+
+        #login-box-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .input-div {
+            margin: 30px;
+            padding: 1px;
+            color: #ACACAC;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .input-div input {
+            width: 300px;
+            height: 30px;
+            padding-left: 15px;
+            font: normal 13px sans-serif;
+            border: 1px solid #909090;
+            outline: none;
+        }
+
+        .input-div :hover {
+            background-color: #e0f1fc;
+
+        }
+
+        .input-div :hover input {
+            border-color: #7dc6dd;
+        }
+
+        .input-senha {
+            margin-top: -10px;
+        }
+
+        #remember-me {
+            margin: 5px;
+            padding: -5px;
+            padding-left: 22px;
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ACACAC;
+        }
+
+        #button {
+            width: 320px;
+            height: 40px;
+            padding-left: 15px;
+            margin: 30px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: #FFFFFF;
+            background-color: #263466;
+            border: 1px solid;
+        }
+
+        #register {
+            display: flex;
+            padding-left: 15px;
+            font-size: 10px;
+            color: #ACACAC;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #forgot {
+            font-size: 10px;
+            color: #ACACAC;
+            margin-left: 150px;
+            padding-left: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #back {
+            display: flex;
+            margin-top: 5px;
+            width: 80%;
+            font-size: 10px;
+            color: #ACACAC;
+            margin-left: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box-1">
+    </div>
+
+    <div id="box-2">
+    </div>
+
+    <div id="login-box">
+        <div id="login-box-label">
+            <img src="logo.jpeg" id="logo">
+        </div>
+
+        <div class="input-div" id="input-usuario">
+            <label type="text" id="username">Username or Email</label>
+            <input type="text">
+        </div>
+
+        <div class="input-div" id="input-password">
+            <label type="text" id="password">Password</label>
+            <input type="password">
+        </div>
+
+        <div id="remember-me">
+            <input type="checkbox">
+            <label type="text" id="remember">Remember me</label>
+        </div>
+
+        <input type="button" id="button" value="LOGIN">
+
+        <div id="register">
+            <label type="text" id="register">Register</label>
+            <label type="text" id="forgot">Forgot your password?</label>
+        </div>
+        <div id="back">
+            <label type="text" id="back">Back to WPBrigade</label>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
